@@ -5,50 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steel Section Buckling Resistance Calculator</title>
     <style>
-        body {font-family: Arial, sans-serif;}
-        
-        h1 {font-size: 32px;}
-        h2 {font-size: 24px;}
-        
-        .container {
-            display: flex;
-            justify-content: flex-start;
-            gap: 30px;
-        }
-        
-        .section {width: 40%;}
-        
-        table {width: 100%; border-collapse: collapse; border: 1px solid black;}
-        td {border: 1px solid black; padding: 3px; text-align: center;}
-        td:first-child {text-align: left;}
-        
-        input[type="number"] {padding: 5px; width: 90%; box-sizing: border-box;}
-        
-        .output-box {width: 25%; padding: 5px; border: 1px solid black; margin-top: 5px; text-align: left;}
-        
-        @media screen and (max-width: 768px) {
-            h1 {font-size: 24px;}
-			h2 {font-size: 16px;}
-			
+		body {
+			font-family: Arial, sans-serif;
+		}
+
+		h1 {
+			font-size: 32px;
+		}
+
+		h2 {
+			font-size: 24px;
+		}
+
+		.container {
+			display: flex;
+			justify-content: flex-start;
+			gap: 30px;
+		}
+
+		.section {
+			width: 40%;
+		}
+
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			border: 1px solid black;
+		}
+
+		td {
+			border: 1px solid black;
+			padding: 3px;
+			text-align: center;
+		}
+
+		td:first-child {
+			text-align: left;
+		}
+
+		input[type="number"] {
+			padding: 5px;
+			width: 90%;
+			box-sizing: border-box;
+		}
+
+		.output-box {
+			width: 25%;
+			padding: 5px;
+			border: 1px solid black;
+			margin-top: 5px;
+			text-align: left;
+		}
+
+		@media screen and (max-width: 768px) {
+			h1 {
+				font-size: 24px;
+			}
+
+			h2 {
+				font-size: 16px;
+			}
+
 			.container {
-                flex-direction: column;
-                gap: 20px;
-            }
-            .section {
-                width: 100%;
-            }
+				flex-direction: column;
+				gap: 20px;
+			}
 
-			table {width: 100%; border-collapse: collapse; border: 1px solid black; font-size: 12px; white-space: nowrap;}
-			
-            .output-box {
-                width: 60%;
+			.section {
+				width: 100%;
+			}
+
+			table {
+				width: 100%;
+				border-collapse: collapse;
+				border: 1px solid black;
 				font-size: 12px;
-            }
-            input[type="number"] {
-                width: 100%;
-            }
+				white-space: nowrap;
+			}
 
-        }
+			.output-box {
+				width: 60%;
+				font-size: 12px;
+			}
+
+			input[type="number"] {
+				width: 100%;
+			}
+
+		}
     </style>
 </head>
 <body>
