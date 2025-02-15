@@ -5,29 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Links Page</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        table {
-            width: 60%;
-            border-collapse: collapse;
-            border: 1px solid black;
-        }
-        td {
-            border: 1px solid black;
-            padding: 3px;
+		body {
+			font-family: Arial, sans-serif;
+		}
+
+		h1 {
+			font-size: 32px;
+		}
+
+		h2 {
+			font-size: 24px;
+		}
+
+		table {
+			width: 60%;
+			border-collapse: collapse;
+			border: 1px solid black;
+		}
+
+		td {
+			border: 1px solid black;
+			padding: 3px;
 			text-align: center
-        }
-        td:first-child {
-            text-align: left; 
-        }
+		}
 
+		td:first-child {
+			text-align: left;
+		}
 
+		@media screen and (max-width: 768px) {
+			h1 {
+				font-size: 24px;
+			}
+
+			h2 {
+				font-size: 16px;
+			}
+
+			.container {
+				flex-direction: column;
+				gap: 20px;
+			}
+
+			.section {
+				width: 80%;
+			}
+
+			table {
+				width: 100%;
+				border-collapse: collapse;
+				border: 1px solid black;
+				font-size: 10px;
+				white-space: nowrap;
+			}
     </style>
 </head>
 <body>
     <h1>Structural Calculators</h1>
-    <p>Created by J.A (UoM):</p>
+    Created by J.A (UoM):
+	<br>
+	<br>
 
     <table>
         <thead>
