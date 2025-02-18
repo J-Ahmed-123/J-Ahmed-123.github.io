@@ -1,3 +1,99 @@
 # J-Ahmed-123.github.io
 
 Hello, IDK if this is working
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Links Page</title>
+    <style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+
+		h1 {
+			font-size: 32px;
+		}
+
+		h2 {
+			font-size: 24px;
+		}
+
+		table {
+			width: 60%;
+			border-collapse: collapse;
+			border: 1px solid black;
+		}
+
+		td {
+			border: 1px solid black;
+			padding: 3px;
+			text-align: center
+		}
+
+		td:first-child {
+			text-align: left;
+		}
+
+		@media screen and (max-width: 768px) {
+			h1 {
+				font-size: 24px;
+			}
+
+			h2 {
+				font-size: 16px;
+			}
+
+			.container {
+				flex-direction: column;
+				gap: 20px;
+			}
+
+			.section {
+				width: 80%;
+			}
+
+			table {
+				width: 100%;
+				border-collapse: collapse;
+				border: 1px solid black;
+				font-size: 10px;
+				white-space: nowrap;
+			}
+    </style>
+</head>
+<body>
+    <h1>Structural Calculators</h1>
+    Created by J.A (UoM):
+	<br>
+	<br>
+
+    <table>
+        <thead>
+            <tr>
+                <td>Calculator</td>
+                <td>Minimal Output</td>
+                <td>Extra Version</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Steel Section Axial Buckling Resistance</td>
+                <td><a href="https://j-ahmed-123.github.io/Steel%20Section%20Buckling%20Resistance%20Minimal%20Mobile%20Comp.html">Minimal Outputs</a></td>
+                <td><a href="https://j-ahmed-123.github.io/Steel%20Section%20Buckling%20Resistance%20Extra%20Mobile%20Comp.html">Extra Version</a></td>
+            </tr>
+            <tr>
+                <td>Shallow Foundation Bearing Capacity</td>
+                <td><a href="https://j-ahmed-123.github.io/Shallow%20Foundation%20Bearing%20Capacity%20Minimal%20Mobile%20Comp.html">Minimal Outputs</a></td>
+                <td><a href="https://j-ahmed-123.github.io/Shallow%20Foundation%20Bearing%20Capacity%20Extra%20Mobile%20Comp.html">Extra Version</a></td>
+            </tr>
+            <tr>
+                <td>Reinforced Concrete Moment Capacity</td>
+                <td><a href="https://j-ahmed-123.github.io/Reinforced%20Concrete%20Moment%20Capacity%20Minimal%20Mobile%20Comp.html">Minimal Outputs</a></td>
+                <td><a href="https://j-ahmed-123.github.io/Reinforced%20Concrete%20Moment%20Capacity%20Extra%20Mobile%20Comp.html">Extra Version</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
