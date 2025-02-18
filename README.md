@@ -1,4 +1,3 @@
-</head>
 <body>
     <h1>Structural Calculators</h1>
     Created by J.A (UoM):
@@ -32,4 +31,3 @@
         </tbody>
     </table>
 </body>
-</html>
