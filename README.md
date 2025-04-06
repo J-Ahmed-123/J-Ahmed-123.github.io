@@ -29,5 +29,5 @@
                 <td><a href="https://j-ahmed-123.github.io/Reinforced%20Concrete%20Moment%20Resistance%20Extra.html">Extra Version</a></td>
             </tr>
         </tbody>
-    </table>>
+    </table>
 </body>
